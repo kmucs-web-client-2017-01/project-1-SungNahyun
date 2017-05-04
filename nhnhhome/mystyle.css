@@ -28,7 +28,7 @@
     background-color: white ;
     margin: 10px 5px 10px 0px;
     border-radius: 0.62em;
-    opacity: 0.75;
+    opacity: 0.79;
     font-size: 7pt;
 }
 #menu li a{
@@ -59,12 +59,11 @@
 #menu ul li ul li a{
     display: block;
 }
-#menu ul ul a{
-}
 #contents{
     text-align: center;
-    background: hsla(0,0%,100%,.5);
+    background: hsla(0, 0%, 100%, 0.63);
     padding: 10px 10px;
+    font:7pt tahoma;
 }
 h1{
     font-family: "나눔고딕 light";
@@ -83,7 +82,6 @@ h1{
     z-index: 100;
 }
 body{
-    font:7pt tahoma;
     background-image: url(bg2.jpg);
 }
 #profileTable table,td, th{
@@ -122,7 +120,7 @@ table{
 table,td,th{
     text-align: center;
     padding: 10px;
-    border-bottom: 1px dotted #e2dbdb;
+    border-bottom: 1px dotted #4e4b4b;
     border-collapse: collapse;
 }
 table td{
@@ -133,7 +131,7 @@ table th{
     font-size: 10px;
 }
 td span, th span{
-    background-color:hsla(0, 0%, 100%, 0.71);
+    background-color:hsla(0, 0%, 100%, 0.65);
 }
 #footprint{
     
