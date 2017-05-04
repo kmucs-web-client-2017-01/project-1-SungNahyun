@@ -11,7 +11,7 @@
 }
 #header{
     padding: 30px 0px;
-    font-family: "NanumBarunGothic Light";
+    font-family: "NanumBarunGothic Light";    
     font-size: 20px;
     text-align: center;
     opacity: 0.95;
@@ -19,7 +19,7 @@
     border-radius: 0.62em;
 }
 #menu {
-
+    
     padding: 10px 20%;
 }
 #menu li{
@@ -62,18 +62,18 @@
 #menu ul ul a{
 }
 #contents{
+    text-align: center;
     background: hsla(0,0%,100%,.5);
     padding: 10px 10px;
 }
 h1{
     font-family: "나눔고딕 light";
-
+    
 }
 #footer{
     position: relative;
     margin-top: 10px;
     text-align: center;
-    background-color: aliceblue;
     background: hsla(0,0%,100%,.5);
 }
 .back{
@@ -85,6 +85,21 @@ h1{
 body{
     font:7pt tahoma;
     background-image: url(bg2.jpg);
+}
+#profileTable table,td, th{
+    padding : 0px;
+    margin : 0px;
+}
+#profileTable td a{
+    color: black;
+    text-decoration: none;
+}
+#profileTable td:hover{
+    background-color: hsla(272, 6%, 81%, 0.44);
+    color:white;
+}
+#profileTable a:hover{
+    color:white;
 }
 .floating-box{
     display: inline-block;
@@ -102,7 +117,7 @@ body{
     height: 200px;
 }
 table{
-    margin: 0px 25%;
+    margin:10px auto;
 }
 table,td,th{
     text-align: center;
@@ -121,19 +136,19 @@ td span, th span{
     background-color:hsla(0, 0%, 100%, 0.71);
 }
 #footprint{
-
+    
 	width: 12em;
     height: 12em;
-	background: #955d9a;
+	background: #955d9a; 
 	background:
 		linear-gradient(to left bottom, transparent 50%, hsla(0, 1%, 38%, 0.53) 0) 100% 0 no-repeat,
 		linear-gradient(-135deg, transparent 1.5em, #dedede 0);
 	background-size: 2em 2em, auto;
-
+	
 	padding: 2em;
 	color: #333030;
 	font: 100% Tahoma, sans-serif;
-
+    
 }
 input{
     width: 8em;
