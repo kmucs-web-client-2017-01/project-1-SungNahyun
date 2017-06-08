@@ -104,19 +104,10 @@ body{
 }
 .floating-box{
     display: inline-block;
-/*
-    width: 150px;
-    height: 150px;
-*/
     margin: 10px;
     overflow:hidden;
 }
-/*
-.squareimage{
-    width: 145px;
-    height: 145px;
-}
-*/
+
 .rectangleimage{
     width: 250px;
     height: 200px;
